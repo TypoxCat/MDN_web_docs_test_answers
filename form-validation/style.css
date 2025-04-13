@@ -1,0 +1,23 @@
+
+body {
+    background-color: #fff;
+    color: #333;
+    font: 1em / 1.4 Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding: 1em;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+/* section 1 */
+input:invalid,
+textarea:invalid {
+    border: solid 1px red;
+}
+
+input:valid,
+textarea:valid {
+    border: solid 1px green;
+}
+/* section 2 */
